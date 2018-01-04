@@ -10,8 +10,21 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
-  "author": "Jonas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmarluz/trillo.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "flexbox"
+  ],
+  "author": "Osmar Luz",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmarluz/trillo/issues"
+  },
+  "homepage": "https://github.com/osmarluz/trillo#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
