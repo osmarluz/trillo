@@ -8,8 +8,8 @@
 .header {
     font-size: 1.4rem;
     height: 7rem;
-    background-color: var(--color-white);
-    border-bottom: var(--color-grey-light-2);
+    background-color: white;
+    border-bottom: 1px solid var(--color-grey-light-2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,6 @@
 }
 
 .hotel-view {
-    background-color: var(--color-white);
+    background-color: white;
     flex: 1;
 }
